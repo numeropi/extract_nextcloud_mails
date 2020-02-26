@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# AGPL license. See LICENSE file
 
 import MySQLdb
 from collections import defaultdict
@@ -94,10 +95,10 @@ if languages_groupby:
             lang = u_data["lang"][:2]
             if lang in ['eu', 'gl']: #For the moment Euskara and Galician will be moved to Spanish lang
                 lang = 'es'
-            if lang not in languages_groupby: #English when no matched language
-                lang = 'en'
+            if lang not in languages_groupby:
+                lang = 'other'
         else:
-            lang = 'en' #English if language is not mentioned in preferences
+            lang = 'other' #English if language is not mentioned in preferences
         users_by_langs[lang].append(u) 
 
     for lang,lang_users in users_by_langs.items():
