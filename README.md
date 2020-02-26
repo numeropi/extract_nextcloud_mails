@@ -2,7 +2,9 @@
 Script to extract and filter out nextcloud mails by lastLogin time, groupnames and groupby languages. Useful for maintenance, mailing and analytics.
 
 # Developers
-Ivan (Komun.org, yourself a safe and private Nextcloud account there.)
+Ivan ([Komun.org](https://komun.org)). ![Komun.org](https://komun.org/user/themes/komun/images/komun_logo_p.png "Komun.org")
+
+(Tip: create yourself a safe and private Nextcloud account [here](https://nubo.komun.org))
 
 # Usage
 * Download this repository in your Nextcloud server
